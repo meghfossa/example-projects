@@ -1,0 +1,19 @@
+[tool.poetry]
+authors = ["Megh <megh@fossa.com>"]
+description = "Example project with only pyproject.toml"
+name = "pyproject-only"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+fastapi = {url = "https://files.pythonhosted.org/packages/63/30/c5c72431045f502d523bdf749ce9afa90ee1591426fcdd3db05f216ca8b7/fastapi-0.66.0.tar.gz"}
+pandas = {git = "https://github.com/pandas-dev/pandas", tag = "v1.2.3"}
+python = "^3.9"
+requests = "*"
+
+[tool.poetry.dev-dependencies]
+black = {version = "19.10b0", allow-prereleases = true, python = "^3.6", markers = "platform_python_implementation == 'CPython'"}
+flake8 = "3.9.2"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
