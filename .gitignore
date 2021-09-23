@@ -13,3 +13,7 @@ elixir/mix/hello_world/erl_crash.dump
 elixir/mix/hello_world/*.ez
 elixir/mix/hello_world/hello_world-*.tar
 elixir/mix/hello_world/tmp
+
+# javascript
+*.log
+*node_modules/
