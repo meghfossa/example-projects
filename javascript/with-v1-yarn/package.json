@@ -1,0 +1,18 @@
+{
+  "name": "example-pkg-with-v1-yarn",
+  "version": "1.0.0",
+  "scripts": {
+    "analyze": "fossa analyze -o"
+  },
+  "author": "Megh <megh@fossa.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "local-package": "../local-package/",
+    "example-git-pkg": "jonchurch/botkit",
+    "example-git-pkg-with-revision": "jonchurch/botkit#multi-hears"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
