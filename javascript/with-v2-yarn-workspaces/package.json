@@ -3,7 +3,10 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
-    "private": true,
+    "scripts": {
+        "analyze": "fossa analyze -o"
+      },
+    "author": "Megh <megh@fossa.com>",
     "workspaces": [
         "packages/*"
     ],
