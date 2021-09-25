@@ -1,0 +1,17 @@
+name = "with-fpm"
+version = "0.1.0"
+license = "license"
+author = "Jane Doe"
+maintainer = "jane.doe@example.com"
+copyright = "Copyright 2021, Jane Doe"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+
+[install]
+library = false
+
+[dependencies]
+toml-f = { git = "https://github.com/toml-f/toml-f", tag = "v0.2.1" }
