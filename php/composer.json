@@ -1,0 +1,16 @@
+{
+    "name": "withcomposer/project",
+    "description": "example php project",
+    "require": {
+        "michelf/php-markdown": "^1.9"
+    },
+    "require-dev": {
+        "webmozart/assert": "^1.10"
+    },
+    "authors": [
+        {
+            "name": "Megh",
+            "email": "megh@fossa.com"
+        }
+    ]
+}
